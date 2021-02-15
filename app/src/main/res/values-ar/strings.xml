@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">مطعمي</string>
+    <string name="burger">برجر</string>
+    <string name="pizza">بيتزا</string>
+    <string name="crepe">كريبات</string>
+    <string name="sandwish">ساندوتش</string>
+    <string name="meal">وجبات</string>
+    <string name="appetizer">إضافات</string>
+    <string name="profile">صفحتى الشخصية</string>
+    <string name="cart">طلباتك</string>
+    <string name="home">الرئيسية</string>
+    <string name="continue_shopping"> تصفح المطعم </string>
+    <string name="save_data">حفظ البيانات</string>
+    <string name="your_address">العنوان</string>
+    <string name="your_phone">رقم الموبايل</string>
+    <string name="your_name">الاسم</string>
+    <string name="whatsapp_number">رقم الواتس</string>
+    <string name="total_price">إجمالى السعر =</string>
+    <string name="bigger_size">اطلب حجم أكبر</string>
+    <string name="check_out">"Check Out"</string>
+    <string name="empty_cart">مسح كل الطلبات ?!</string>
+    <string name="add_to_cart">"إضافة الى طلبك"</string>
+    <string name="favorite">" Like "</string>
+    <string name="delivery_address">العنوان و الدفع</string>
+    <string name="add_delivery_address">التأكد من العنوان</string>
+    <string name="cash_on_delivery">الدفع عند الإستلام</string>
+    <string name="debit_credit_card">Debit/Credit بطاقة</string>
+    <string name="powered_by">برعـاية \n Al-Adel Development</string>
+</resources>

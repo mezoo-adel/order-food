@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+    <TextView
+    android:text="he's the date"
+    style="@style/text_button_category"
+    android:textColor="#403D3D"
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#D3EBEE" />
+
+    <ListView
+        android:id="@+id/list_orders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#D3EBEE" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/order_cancel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:tag="حذف السلة"
+        app:srcCompat="@drawable/delete_icon"
+        android:scaleType="centerInside"/>
+    <TextView
+        android:layout_marginStart="25dp"
+        android:id="@+id/total_price"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="@string/total_price"
+        style="@style/text_button_category"/>
+
+</LinearLayout>
+
+    <Button
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:id="@+id/finish_order"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/orderbuttonshape"
+        android:text="@string/check_out" />
+</LinearLayout>

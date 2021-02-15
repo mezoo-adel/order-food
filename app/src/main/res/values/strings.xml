@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Resturant</string>
+    <string name="burger">Burger</string>
+    <string name="pizza">Pizza</string>
+    <string name="crepe">Crepe</string>
+    <string name="sandwish">Sandwich</string>
+    <string name="meal">Meal</string>
+    <string name="appetizer">Appetizer</string>
+    <string name="profile">Profile</string>
+    <string name="cart">Cart</string>
+    <string name="home">Home</string>
+    <string name="continue_shopping"> Continue Shopping </string>
+    <string name="save_data">Save Data</string>
+    <string name="your_address">Your Address</string>
+    <string name="your_phone">Your Phone</string>
+    <string name="your_name">Your Name</string>
+    <string name="whatsapp_number">Whatsapp Number</string>
+
+    <string name="total_price">Total Price =</string>
+    <string name="bigger_size">Order Bigger Size</string>
+    <string name="check_out">"Check Out"</string>
+    <string name="empty_cart">Make Your Cart Empty ?!</string>
+    <string name="add_to_cart">"ADD To Cart"</string>
+    <string name="favorite">" Like "</string>
+    <string name="delivery_address">DELIVERY ADDRESS</string>
+    <string name="add_delivery_address">Add Delivery Address</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="debit_credit_card">Debit/Credit card</string>
+    <string name="powered_by">Powered By \n Al-Adel Development</string>
+</resources>
